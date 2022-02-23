@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import TwLeftSidebar from '@/components/LeftSidebar/tw-left-sidebar.vue'
-import TwRightSidebar from '@/components/RightSidebar/tw-right-sidebar.vue'
+import TwLeftSidebar from '@/components/leftSidebar/tw-left-sidebar.vue'
+import TwRightSidebar from '@/components/rightSidebar/tw-right-sidebar.vue'
 export default {
   components: {
     TwLeftSidebar,

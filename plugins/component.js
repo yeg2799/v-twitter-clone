@@ -1,6 +1,9 @@
 import Vue from 'vue';
-import TwIcon from '@/components/Icon/tw-icon';
-import ImageCard from '@/components/Image/image-card';
+import TwIcon from '@/components/icon/tw-icon';
+import TwImageCard from '@/components/image/tw-image-card';
+import TwLink from '@/components/link/tw-link';
 
 Vue.component('TwIcon', TwIcon);
-Vue.component('ImageCard', ImageCard);
+Vue.component('TwImageCard', TwImageCard);
+Vue.component('TwLink', TwLink);
+

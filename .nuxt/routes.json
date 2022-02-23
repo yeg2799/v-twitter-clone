@@ -2,12 +2,20 @@
   {
     "name": "icons-list",
     "path": "/_icons",
-    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue"
+    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue",
+    "_name": "_29e8d126"
+  },
+  {
+    "name": "icons-list",
+    "path": "/_icons",
+    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue",
+    "_name": "_29e8d126"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_71a41c6e"
   }
 ]

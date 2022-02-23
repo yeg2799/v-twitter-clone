@@ -3,14 +3,21 @@
     .tw-left-sidebar-wrapper
       .tw-tweet-icon
         tw-icon(icon="tweet-bird")
-      .tw-left-sidebar-menu(v-for="a in 8" :key="a")
-        .tw-left-sidebar-menu-item
-          tw-icon(icon="home" text="Anasayfa")
+      .tw-left-sidebar-menu(v-for="menu in menuDataList" :key="menu.id")
+        tw-link.tw-left-sidebar-menu-item(:link="menu.slug")
+          tw-icon(:icon="menu.icon" :text="menu.title")
 </template>
 
 <script>
+import { onMounted } from '@nuxtjs/composition-api'
+import  { menuDataList }  from '@/helpers/mocks';
 export default {
+    setup(){
 
+        return {
+            menuDataList
+        };
+    }
 }
 </script>
 

@@ -1,12 +1,12 @@
 module.exports = {
     extendRoutes(routes, resolve) {
-    //   routes.push(
-    //     {
-    //       name: 'main',
-    //       path: '/',
-    //       component: resolve('pages/en/columns/author-all-columns.vue'),
-    //     },
-    //   );
+      routes.push(
+        {
+          name: 'main',
+          path: '/home',
+          component: resolve('pages/index'),
+        },
+      );
     },
   };
   

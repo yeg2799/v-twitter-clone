@@ -6,7 +6,8 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<LeftSidebarTwLeftSidebar>` | `<left-sidebar-tw-left-sidebar>` (components/LeftSidebar/tw-left-sidebar.vue)
-- `<ImageCard>` | `<image-card>` (components/Image/image-card.vue)
-- `<IconTwIcon>` | `<icon-tw-icon>` (components/Icon/tw-icon.vue)
-- `<RightSidebarTwRightSidebar>` | `<right-sidebar-tw-right-sidebar>` (components/RightSidebar/tw-right-sidebar.vue)
+- `<IconTwIcon>` | `<icon-tw-icon>` (components/icon/tw-icon.vue)
+- `<ImageTwImageCard>` | `<image-tw-image-card>` (components/image/tw-image-card.vue)
+- `<LinkTwLink>` | `<link-tw-link>` (components/link/tw-link.vue)
+- `<RightSidebarTwRightSidebar>` | `<right-sidebar-tw-right-sidebar>` (components/rightSidebar/tw-right-sidebar.vue)
+- `<LeftSidebarTwLeftSidebar>` | `<left-sidebar-tw-left-sidebar>` (components/leftSidebar/tw-left-sidebar.vue)
