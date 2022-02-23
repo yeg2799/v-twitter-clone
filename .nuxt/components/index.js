@@ -1,6 +1,6 @@
-export { default as SvgSprite } from '../../components/SvgSprite.vue'
 export { default as LeftSidebarTwLeftSidebar } from '../../components/LeftSidebar/tw-left-sidebar.vue'
 export { default as ImageCard } from '../../components/Image/image-card.vue'
+export { default as IconTwIcon } from '../../components/Icon/tw-icon.vue'
 export { default as RightSidebarTwRightSidebar } from '../../components/RightSidebar/tw-right-sidebar.vue'
 
 // nuxt/nuxt.js#8607

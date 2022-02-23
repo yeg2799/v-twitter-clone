@@ -1,12 +1,12 @@
 {
-  "SvgSprite": {
-    "description": "Auto imported from components/SvgSprite.vue"
-  },
   "LeftSidebarTwLeftSidebar": {
     "description": "Auto imported from components/LeftSidebar/tw-left-sidebar.vue"
   },
   "ImageCard": {
     "description": "Auto imported from components/Image/image-card.vue"
+  },
+  "IconTwIcon": {
+    "description": "Auto imported from components/Icon/tw-icon.vue"
   },
   "RightSidebarTwRightSidebar": {
     "description": "Auto imported from components/RightSidebar/tw-right-sidebar.vue"
