@@ -8,6 +8,6 @@ You can directly use them in pages and other components without the need to impo
 
 - `<IconTwIcon>` | `<icon-tw-icon>` (components/icon/tw-icon.vue)
 - `<ImageTwImageCard>` | `<image-tw-image-card>` (components/image/tw-image-card.vue)
-- `<LinkTwLink>` | `<link-tw-link>` (components/link/tw-link.vue)
 - `<RightSidebarTwRightSidebar>` | `<right-sidebar-tw-right-sidebar>` (components/rightSidebar/tw-right-sidebar.vue)
 - `<LeftSidebarTwLeftSidebar>` | `<left-sidebar-tw-left-sidebar>` (components/leftSidebar/tw-left-sidebar.vue)
+- `<LinkTwLink>` | `<link-tw-link>` (components/link/tw-link.vue)

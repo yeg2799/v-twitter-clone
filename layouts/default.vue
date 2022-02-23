@@ -12,6 +12,7 @@
 import TwLeftSidebar from '@/components/leftSidebar/tw-left-sidebar.vue'
 import TwRightSidebar from '@/components/rightSidebar/tw-right-sidebar.vue'
 export default {
+  middleware: 'main',
   components: {
     TwLeftSidebar,
     TwRightSidebar,

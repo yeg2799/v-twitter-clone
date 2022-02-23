@@ -4,7 +4,9 @@
       .tw-tweet-icon
         tw-icon(icon="tweet-bird")
       .tw-left-sidebar-menu(v-for="menu in menuDataList" :key="menu.id")
-        tw-link.tw-left-sidebar-menu-item(:link="menu.slug")
+        tw-link.tw-left-sidebar-menu-item(v-if="menu.slug" :link="menu.slug")
+          tw-icon(:icon="menu.icon" :text="menu.title")
+        .tw-left-sidebar-menu-item(v-if="!menu.slug" @click="openMoreList")
           tw-icon(:icon="menu.icon" :text="menu.title")
 </template>
 
@@ -13,9 +15,12 @@ import { onMounted } from '@nuxtjs/composition-api'
 import  { menuDataList }  from '@/helpers/mocks';
 export default {
     setup(){
-
+        const openMoreList = () => {
+            console.log('opened');
+        }
         return {
-            menuDataList
+            openMoreList,
+            menuDataList,
         };
     }
 }
