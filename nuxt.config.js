@@ -1,4 +1,6 @@
+const router = require('./config/router.js');
 export default {
+  router,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'twitter-clone',

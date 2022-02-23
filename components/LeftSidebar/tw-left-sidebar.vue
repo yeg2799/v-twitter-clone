@@ -1,9 +1,14 @@
 <template lang="pug">
-  span anasayfa
+  .tw-left-sidebar
+    span leftSidebar
 </template>
 
 <script>
 export default {
-  name: 'main-page'
+
 }
 </script>
+
+<style>
+
+</style>

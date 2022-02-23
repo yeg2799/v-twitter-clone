@@ -1,9 +1,14 @@
 <template lang="pug">
-  span anasayfa
+  .error-page
+    span 404
 </template>
 
 <script>
 export default {
-  name: 'main-page'
+
 }
 </script>
+
+<style>
+
+</style>

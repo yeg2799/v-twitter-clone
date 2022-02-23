@@ -1,0 +1,13 @@
+[
+  {
+    "name": "icons-list",
+    "path": "/_icons",
+    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

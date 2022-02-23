@@ -1,11 +1,21 @@
 <template lang="pug">
+  .default-layout
+    .layout-left-sidebar
+      tw-left-sidebar
+    .layout-main
       Nuxt
+    .layout-right-sidebar
+      tw-right-sidebar
 </template>
 
 <script>
-
+import TwLeftSidebar from '@/components/LeftSidebar/tw-left-sidebar.vue'
+import TwRightSidebar from '@/components/RightSidebar/tw-right-sidebar.vue'
 export default {
-
+  components: {
+    TwLeftSidebar,
+    TwRightSidebar,
+  }
 }
 </script>
 
@@ -43,13 +53,24 @@ export default {
     font-size: 14px;
   }
 
-.layout {
+.default-layout {
   display: flex;
   width: 100%;
   height: 100%;
   color: #fff;
+  background: #000;
   overflow-y: hidden;
+  .layout-left-sidebar {
+    width: 25%;
+  }
+  .layout-main{
+    width: 41.5%;
+    border-left: 1px solid #393c3e;
+    border-right: 1px solid #393c3e;
+  }
+  .layout-right-sidebar {
 
+  }
 }
 
 </style>
