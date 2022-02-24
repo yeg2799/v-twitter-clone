@@ -73,6 +73,11 @@ body {
   color: #393c3e;
   font-size: 14px;
 }
+.container {
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px !important;
+  }
+}
 
 .default-layout {
   width: 100%;
