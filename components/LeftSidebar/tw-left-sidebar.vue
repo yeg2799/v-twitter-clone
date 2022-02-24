@@ -8,7 +8,7 @@
         tw-icon(:icon="menu.icon" :text="menu.title")
       .tw-left-sidebar-menu-item(v-if="!menu.slug" @click="openMoreList")
         tw-icon(:icon="menu.icon" :text="menu.title")
-    tw-button.tw-button(text="Tweetle" bgColor="#1d9bf0")
+    tw-button.tw-button(text="Tweetle" bgColor="#1d9bf0" width="220" height="50")
   .tw-left-sidebar-user
     tw-user-card
 </template>
