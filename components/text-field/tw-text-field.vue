@@ -1,11 +1,11 @@
 <template lang="pug">
 .tw-text-field
   .tw-right-sidebar-prefix-icon(v-if="prefixIcon")
-    tw-icon(:icon="icon")
+    tw-icon(:icon="icon" size="20")
   .tw-right-sidebar-text-field
-    input(:type="type" :placeholder="placeholder")
+    input(:type="type" :placeholder="placeholder" :style="{ backgroundColor: inputColor }")
   .tw-right-sidebar-suffix-icon(v-if="suffixIcon")
-    tw-icon(:icon="icon")
+    tw-icon(:icon="icon" size="20")
 </template>
 
 <script>
@@ -31,14 +31,28 @@ export default {
       type: String,
       default: '',
     },
+    inputColor: {
+      type: String,
+      default: '',
+    },
   },
 };
 </script>
 
 <style lang="scss" scoped>
 .tw-text-field {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  width: 100%;
   // justify-content: space-around;
+  .tw-right-sidebar-text-field {
+    width: 100%;
+    margin: 0 15px;
+    input {
+      border: none;
+      color: #fff;
+      width: 100%;
+    }
+  }
 }
 </style>

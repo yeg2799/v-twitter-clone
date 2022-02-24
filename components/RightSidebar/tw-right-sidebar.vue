@@ -1,7 +1,7 @@
 <template lang="pug">
 .tw-right-sidebar
   .tw-right-sidebar-search
-    tw-text-field(placeholder="Twitter'da Ara" icon="search" prefixIcon)
+    tw-text-field(placeholder="Twitter'da Ara" icon="search" prefixIcon inputColor="#202327")
     ys-icon.multiple-icon(icon="multiple")
 </template>
 
