@@ -10,14 +10,17 @@
         tw-icon(:icon="menu.icon" :text="menu.title")
     tw-button.tw-button(text="Tweetle" bgColor="#1d9bf0")
   .tw-left-sidebar-user
-    span Emre
+    tw-user-card
 </template>
 
 <script>
-import { onMounted } from '@nuxtjs/composition-api';
 import { menuDataList } from '@/helpers/mocks';
+import TwUserCard from '@/components/cards/tw-user-card';
 
 export default {
+  components: {
+    TwUserCard,
+  },
   setup() {
     const openMoreList = () => {
       console.log('opened');
@@ -33,11 +36,13 @@ export default {
 
 <style lang="scss" scoped>
 .tw-left-sidebar {
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 100%;
   margin-left: 100px;
-  padding-top: 15px;
+  padding: 10px 0;
   .tw-tweet-icon {
     display: inline-block;
     cursor: pointer;
@@ -59,6 +64,9 @@ export default {
         background: #161616;
       }
     }
+  }
+  &-user {
+    margin-right: 10px;
   }
   .tw-button {
     margin: 20px 0px;

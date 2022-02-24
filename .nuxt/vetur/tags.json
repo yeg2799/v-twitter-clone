@@ -2,6 +2,9 @@
   "ButtonTwButton": {
     "description": "Auto imported from components/button/tw-button.vue"
   },
+  "CardsTwUserCard": {
+    "description": "Auto imported from components/cards/tw-user-card.vue"
+  },
   "IconTwIcon": {
     "description": "Auto imported from components/icon/tw-icon.vue"
   },
@@ -11,10 +14,10 @@
   "LeftSidebarTwLeftSidebar": {
     "description": "Auto imported from components/leftSidebar/tw-left-sidebar.vue"
   },
-  "LinkTwLink": {
-    "description": "Auto imported from components/link/tw-link.vue"
-  },
   "RightSidebarTwRightSidebar": {
     "description": "Auto imported from components/rightSidebar/tw-right-sidebar.vue"
+  },
+  "LinkTwLink": {
+    "description": "Auto imported from components/link/tw-link.vue"
   }
 }

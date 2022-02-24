@@ -1,5 +1,5 @@
 <template lang="pug">
-.default-layout
+.default-layout(:style="{ height: `${layoutHeight}px` }")
   .layout-left-sidebar
     tw-left-sidebar
   .layout-main
@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import { onMounted, ref, onUnmounted } from '@nuxtjs/composition-api';
 import TwLeftSidebar from '@/components/leftSidebar/tw-left-sidebar.vue';
 import TwRightSidebar from '@/components/rightSidebar/tw-right-sidebar.vue';
 
@@ -17,6 +18,23 @@ export default {
   components: {
     TwLeftSidebar,
     TwRightSidebar,
+  },
+  setup() {
+    const layoutHeight = ref('');
+    const handleResize = () => {
+      layoutHeight.value = window.innerHeight;
+    };
+    onMounted(() => {
+      window.addEventListener('resize', handleResize);
+      handleResize();
+    });
+    onUnmounted(() => {
+      window.removeEventListener('resize', handleResize);
+    });
+
+    return {
+      layoutHeight,
+    }
   },
 };
 </script>

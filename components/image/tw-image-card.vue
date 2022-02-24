@@ -1,5 +1,5 @@
 <template lang="pug">
-nuxt-img(:src="src" :preset="preset")
+nuxt-img(:src="src" :preset="preset" :class="{ avatar: preset === 'avatar' }")
 </template>
 
 <script>
@@ -17,4 +17,10 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.avatar {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+</style>

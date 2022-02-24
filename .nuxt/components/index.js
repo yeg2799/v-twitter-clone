@@ -1,4 +1,5 @@
 export { default as ButtonTwButton } from '../../components/button/tw-button.vue'
+export { default as CardsTwUserCard } from '../../components/cards/tw-user-card.vue'
 export { default as IconTwIcon } from '../../components/icon/tw-icon.vue'
 export { default as ImageTwImageCard } from '../../components/image/tw-image-card.vue'
 export { default as LeftSidebarTwLeftSidebar } from '../../components/leftSidebar/tw-left-sidebar.vue'
