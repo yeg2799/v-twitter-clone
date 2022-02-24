@@ -1,23 +1,34 @@
 <template lang="pug">
 .tw-right-sidebar
-  .tw-right-sidebar-search
+  .tw-right-sidebar-search-card
     tw-text-field(placeholder="Twitter'da Ara" icon="search" prefixIcon inputColor="#202327")
-    ys-icon.multiple-icon(icon="multiple")
+    tw-icon.multiple-icon(icon="multiple" size="10")
+  .tw-right-sidebar-explore-card
+    tw-explore-card
 </template>
 
 <script>
-export default {};
+import TwExploreCard from '@/components/cards/tw-explore-card';
+
+export default {
+  components: {
+    TwExploreCard,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 .tw-right-sidebar {
   margin-left: 30px;
-  margin-right: 100px;
   margin-top: 10px;
-  &-search {
+  &-search-card {
+    display: flex;
     background: #202327;
     padding: 10px;
     border-radius: 40px;
+  }
+  &-explore-card {
+    margin-top: 15px;
   }
 }
 </style>

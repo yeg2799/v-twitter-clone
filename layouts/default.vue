@@ -1,11 +1,12 @@
 <template lang="pug">
-.default-layout(:style="{ height: `${layoutHeight}px` }")
-  .layout-left-sidebar
-    tw-left-sidebar
-  .layout-main
-    Nuxt
-  .layout-right-sidebar
-    tw-right-sidebar
+.default-layout
+  .container.layout(:style="{ height: `${layoutHeight}px` }")
+    .layout-left-sidebar
+      tw-left-sidebar
+    .layout-main
+      Nuxt
+    .layout-right-sidebar
+      tw-right-sidebar
 </template>
 
 <script>
@@ -74,12 +75,14 @@ body {
 }
 
 .default-layout {
-  display: flex;
   width: 100%;
   height: 100%;
   color: #fff;
   background: #000;
   overflow-y: hidden;
+  .layout {
+    display: flex;
+  }
   .layout-left-sidebar {
     width: 25%;
   }

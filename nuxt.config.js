@@ -17,7 +17,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-  css: [],
+  css: ['bootstrap/dist/css/bootstrap.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['@/plugins/component.js'],

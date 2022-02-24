@@ -6,6 +6,8 @@ import NuxtError from '../layouts/error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+
 import _1c3006c4 from './layouts.svg-sprite.ef845fb6.vue'
 import _6f6c098b from '../layouts/default.vue'
 

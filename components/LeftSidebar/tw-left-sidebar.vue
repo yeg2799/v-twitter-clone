@@ -41,7 +41,6 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  margin-left: 100px;
   padding: 10px 0;
   .tw-tweet-icon {
     display: inline-block;
