@@ -53,10 +53,9 @@ export default {
 
 <style lang="scss" scoped>
 .tw-link {
-    a{
-      color: #fff;
-      text-decoration: none;
-    }
-   
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 </style>

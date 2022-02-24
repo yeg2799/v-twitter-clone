@@ -1,5 +1,5 @@
 <template lang="pug">
-  nuxt-img(:preset="preset" :src="src")
+nuxt-img(:src="src" :preset="preset")
 </template>
 
 <script>
@@ -7,16 +7,14 @@ export default {
   props: {
     src: {
       type: String,
-      required: true
+      required: true,
     },
     preset: {
       type: String,
-      default: ''
-    }
+      default: '',
+    },
   },
-}
+};
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

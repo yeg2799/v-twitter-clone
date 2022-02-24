@@ -1,9 +1,9 @@
 <template lang="pug">
-  span anasayfa
+span anasayfa
 </template>
 
 <script>
 export default {
-  name: 'main-page',
-}
+  name: 'MainPage',
+};
 </script>

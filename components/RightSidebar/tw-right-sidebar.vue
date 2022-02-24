@@ -1,14 +1,10 @@
 <template lang="pug">
-  .tw-right-sidebar
-    span right-sidebar
+.tw-right-sidebar
+  span right-sidebar
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
