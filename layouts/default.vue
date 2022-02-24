@@ -34,7 +34,7 @@ export default {
 
     return {
       layoutHeight,
-    }
+    };
   },
 };
 </script>
@@ -89,6 +89,7 @@ body {
     border-right: 1px solid #393c3e;
   }
   .layout-right-sidebar {
+    width: 33.5%;
   }
 }
 </style>
