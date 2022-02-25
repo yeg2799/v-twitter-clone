@@ -31,12 +31,14 @@ export default {};
 .tw-main-page {
   &-body-share {
     display: flex;
-    padding: 15px;
     width: auto;
+    padding: 15px;
     border-bottom: 1px solid #393c3e;
+
     &-right {
       width: 100%;
       margin-left: 25px;
+
       &-input {
         margin: 5px 5px 15px;
         border-bottom: 1px solid #393c3e;
@@ -47,26 +49,32 @@ export default {};
           padding: 5px 10px;
           border-radius: 40px;
           cursor: pointer;
+
           &:hover {
             background: #041018;
           }
         }
+
         .tw-text-field .tw-right-sidebar-text-field {
-          margin: 5px 0px 10px;
+          margin: 5px 0 10px;
         }
       }
+
       &-bottom {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         &-features {
           display: flex;
           align-items: center;
+
           .tw-icon {
             margin-right: 2px;
             padding: 5px;
             border-radius: 50%;
             cursor: pointer;
+
             &:hover {
               background: #041018;
             }

@@ -33,18 +33,20 @@ export default {
 .tw-icon {
   display: flex;
   align-items: center;
+
   .icon {
     display: inline-block;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
     object-fit: contain;
-    pointer-events: none;
     user-select: none;
+    pointer-events: none;
+    fill: currentColor;
+    stroke: currentColor;
+    stroke-width: 0;
   }
+
   .text {
-    font-size: 15px;
     margin-left: 10px;
+    font-size: 15px;
   }
 }
 </style>

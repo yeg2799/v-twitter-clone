@@ -26,14 +26,16 @@ export default {
 </script>
 <style lang="scss">
 .tw-main-page {
+  position: relative;
   display: flex;
   flex-direction: column;
-  position: relative;
+
   &-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 15px;
+
     .title {
       font-size: 17px;
     }

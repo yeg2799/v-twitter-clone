@@ -35,33 +35,41 @@ export default {};
 .tw-content-cards {
   width: 100%;
   cursor: pointer;
+
   &:hover {
     background: #080808;
   }
+
   &-wrapper {
     display: flex;
     padding: 10px;
     border-bottom: 1px solid #393c3e;
+
     &-right {
       width: 100%;
       margin-left: 10px;
+
       &-header {
         display: flex;
         justify-content: space-between;
       }
+
       &-body {
         &-image {
           width: 520px;
           margin: 20px 0;
+
           img {
             width: 100%;
             border-radius: 10px;
           }
         }
       }
+
       &-bottom {
         width: 80%;
         margin-top: 10px;
+
         &-reaction {
           display: flex;
           justify-content: space-between;

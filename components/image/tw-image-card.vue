@@ -19,8 +19,8 @@ export default {
 
 <style lang="scss">
 .avatar {
-  border-radius: 50%;
   width: 45px;
   height: 45px;
+  border-radius: 50%;
 }
 </style>

@@ -48,10 +48,11 @@ export default {
   .tw-right-sidebar-text-field {
     width: 100%;
     margin: 0 15px;
+
     input {
-      border: none;
-      color: #fff;
       width: 100%;
+      color: #fff;
+      border: none;
     }
   }
 }

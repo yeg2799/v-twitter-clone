@@ -27,43 +27,51 @@ export default {};
 .tw-who-to-follow-card {
   background: #15181c;
   border-radius: 15px;
+
   &-header {
     padding: 15px;
   }
+
   &-body {
     &-row {
       display: flex;
       flex-direction: row;
       align-items: center;
-      padding: 15px;
       justify-content: space-between;
+      padding: 15px;
       cursor: pointer;
+
       &:hover {
         background: #1c1f24;
       }
+
       &-left {
         display: flex;
         align-items: center;
+
         &-name {
           display: flex;
           flex-direction: column;
           margin-left: 10px;
+
           .userName {
-            font-size: 13px;
             color: #3a3e43;
+            font-size: 13px;
           }
         }
       }
     }
   }
+
   &-bottom {
     padding: 15px;
     color: #2799ed;
     cursor: pointer;
+
     &:hover {
       background: #2b3032;
-      border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
     }
   }
 }

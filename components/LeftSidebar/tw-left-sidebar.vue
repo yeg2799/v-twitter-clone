@@ -42,33 +42,39 @@ export default {
   justify-content: space-between;
   height: 100%;
   padding: 10px 0;
+
   .tw-tweet-icon {
     display: inline-block;
-    cursor: pointer;
-    padding: 8px;
     margin-left: 10px;
+    padding: 8px;
     border-radius: 50%;
+    cursor: pointer;
+
     &:hover {
       background: #161616;
     }
   }
+
   &-menu {
     &-item {
       display: inline-block;
       margin-top: 10px;
-      cursor: pointer;
       padding: 10px 20px;
       border-radius: 40px;
+      cursor: pointer;
+
       &:hover {
         background: #161616;
       }
     }
   }
+
   &-user {
     margin-right: 10px;
   }
+
   .tw-button {
-    margin: 20px 0px;
+    margin: 20px 0;
   }
 }
 </style>

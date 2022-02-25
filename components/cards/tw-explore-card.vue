@@ -23,52 +23,63 @@ export default {};
 .tw-explore-card {
   background: #15181c;
   border-radius: 15px;
+
   &-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 15px;
     padding-bottom: 0;
-    justify-content: space-between;
+
     &-title {
       font-size: 20px;
     }
+
     .setting-icon {
       padding: 5px;
       border-radius: 50%;
       cursor: pointer;
+
       &:hover {
         background: #2b3032;
       }
     }
   }
+
   &-body {
     &-row {
       display: flex;
       flex-direction: row;
       align-items: center;
-      padding: 15px;
       justify-content: space-between;
+      padding: 15px;
       cursor: pointer;
+
       &:hover {
         background: #1c1f24;
       }
+
       &-left {
         display: flex;
         flex-direction: column;
+
         .tag {
-          font-size: 13px;
           color: #3a3e43;
+          font-size: 13px;
         }
+
         .tweet-count {
-          font-size: 13px;
           color: #3a3e43;
+          font-size: 13px;
         }
       }
+
       &-right {
         .more-than {
           padding: 5px;
           border-radius: 50%;
           cursor: pointer;
+
           &:hover {
             background: #2b3032;
           }
@@ -76,14 +87,16 @@ export default {};
       }
     }
   }
+
   &-bottom {
     padding: 15px;
     color: #2799ed;
     cursor: pointer;
+
     &:hover {
       background: #2b3032;
-      border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
     }
   }
 }

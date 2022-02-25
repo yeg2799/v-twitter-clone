@@ -30,14 +30,15 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
-  cursor: pointer;
   justify-content: space-between;
   padding: 10px 20px;
   border-radius: 40px;
+  cursor: pointer;
 
   &:hover {
     background: #161616;
   }
+
   &-left {
     display: flex;
     // align-items: center;
@@ -46,10 +47,11 @@ export default {
       flex-direction: column;
       justify-content: space-evenly;
       margin-left: 10px;
+
       .userName {
-        font-size: 13px;
-        font-weight: 800;
         color: #383c3f;
+        font-weight: 800;
+        font-size: 13px;
       }
     }
   }

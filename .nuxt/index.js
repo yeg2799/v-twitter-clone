@@ -17,7 +17,6 @@ import nuxt_plugin_plugin_3b9bf8c7 from 'nuxt_plugin_plugin_3b9bf8c7' // Source:
 import nuxt_plugin_nuxtsvgsprite_8fe31cda from 'nuxt_plugin_nuxtsvgsprite_8fe31cda' // Source: ./nuxt-svg-sprite.js (mode: 'all')
 import nuxt_plugin_image_4e439ca0 from 'nuxt_plugin_image_4e439ca0' // Source: ./image.js (mode: 'all')
 import nuxt_plugin_component_9f70f064 from 'nuxt_plugin_component_9f70f064' // Source: ../plugins/component.js (mode: 'all')
-import nuxt_plugin_vueellipseprogress_34506400 from 'nuxt_plugin_vueellipseprogress_34506400' // Source: ../plugins/vue-ellipse-progress.js (mode: 'client')
 import nuxt_plugin_meta_c82d4cce from 'nuxt_plugin_meta_c82d4cce' // Source: ./composition-api/meta.mjs (mode: 'all')
 
 // Component: <ClientOnly>
@@ -200,10 +199,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_component_9f70f064 === 'function') {
     await nuxt_plugin_component_9f70f064(app.context, inject)
-  }
-
-  if (process.client && typeof nuxt_plugin_vueellipseprogress_34506400 === 'function') {
-    await nuxt_plugin_vueellipseprogress_34506400(app.context, inject)
   }
 
   if (typeof nuxt_plugin_meta_c82d4cce === 'function') {

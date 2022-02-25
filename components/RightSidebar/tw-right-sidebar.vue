@@ -23,17 +23,20 @@ export default {
 
 <style lang="scss" scoped>
 .tw-right-sidebar {
-  margin-left: 30px;
   margin-top: 10px;
+  margin-left: 30px;
+
   &-search-card {
     display: flex;
-    background: #202327;
     padding: 10px;
+    background: #202327;
     border-radius: 40px;
   }
+
   &-explore-card {
     margin-top: 15px;
   }
+
   &-whotofollow-card {
     margin-top: 15px;
   }

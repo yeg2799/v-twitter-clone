@@ -59,10 +59,11 @@ export default {
 .tw-button-wrapper {
   .button {
     display: inline-block;
-    cursor: pointer;
     // padding: 20px 80px;
     border: 1px solid transparent;
     border-radius: 50px;
+    cursor: pointer;
+
     .text {
       font-size: 15px;
     }

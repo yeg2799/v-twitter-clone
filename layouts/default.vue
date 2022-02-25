@@ -42,11 +42,12 @@ export default {
 
 <style lang="scss">
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+
   &,
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     box-sizing: border-box;
   }
 }
@@ -57,22 +58,23 @@ export default {
 }
 
 html {
-  box-sizing: border-box;
-  text-rendering: optimizeLegibility;
   position: relative;
+  box-sizing: border-box;
   overflow-x: hidden;
+  text-rendering: optimizeLegibility;
 }
 
 body {
   overflow-x: hidden !important;
+  color: #393c3e;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  background: #f7f7f7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  background: #f7f7f7;
-  color: #393c3e;
-  font-size: 14px;
 }
+
 .container {
   @media screen and (min-width: 1200px) {
     max-width: 1280px !important;
@@ -82,21 +84,25 @@ body {
 .default-layout {
   width: 100%;
   height: 100%;
+  overflow-y: hidden;
   color: #fff;
   background: #000;
-  overflow-y: hidden;
+
   .layout {
     display: flex;
   }
+
   .layout-left-sidebar {
     width: 21%;
   }
+
   .layout-main {
     width: 48%;
-    border-left: 1px solid #393c3e;
-    border-right: 1px solid #393c3e;
     overflow-y: scroll;
+    border-right: 1px solid #393c3e;
+    border-left: 1px solid #393c3e;
   }
+
   .layout-right-sidebar {
     width: 31%;
     overflow: scroll;

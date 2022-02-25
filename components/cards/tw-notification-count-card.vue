@@ -9,13 +9,14 @@ export default {};
 
 <style lang="scss">
 .tw-notification-count-card {
-  border-bottom: 1px solid #393c3e;
-  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 50px;
   color: #1d9bf0;
+  border-bottom: 1px solid #393c3e;
   cursor: pointer;
+
   &:hover {
     background: #080808;
   }
