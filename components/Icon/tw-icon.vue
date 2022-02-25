@@ -1,8 +1,8 @@
 <template lang="pug">
 .tw-icon
   component.icon(:is="require(`@/assets/icons/${icon}.svg?inline`)" :width="`${size}px`" :style= "{ color:color }")
-  .text(v-if="text")
-    span {{ text }}
+  .text(v-if="text" )
+    span(:style= "{ color:color }") {{ text }}
 </template>
 
 <script>

@@ -14,7 +14,7 @@
       .tw-main-page-body-share-right
         .tw-main-page-body-share-right-input
           tw-text-field(placeholder="Neler oluyor?" inputColor="#000")
-          //- tw-icon.world-icon(icon="world" text="Herkes yanıtlayabilir")
+          tw-icon.world-icon(icon="world" text="Herkes yanıtlayabilir" color="#1D9BF0" size="20")
         .tw-main-page-body-share-right-bottom
           .tw-main-page-body-share-right-bottom-features
             tw-icon.media-icon(icon="media" size="20" color="#1D9BF0")
@@ -25,7 +25,7 @@
             tw-icon.location-icon(icon="location" size="20" color="#1D9BF0")
           .tw-main-page-body-share-right-bottom-tweet-tw-button
             //- tw-ellipse-progress
-            tw-button(text="Tweetle" bgColor="#1D9BF0" height="35")
+            tw-button(text="Tweetle" bgColor="#0F4D77" color="#7F7F7F" height="35")
 </template>
 
 <script>
@@ -59,8 +59,21 @@ export default {
       width: 100%;
       margin-left: 25px;
       &-input {
+        margin: 5px 5px 15px;
+        border-bottom: 1px solid #393c3e;
+
+        .world-icon {
+          display: inline-flex;
+          margin-bottom: 10px;
+          padding: 5px 10px;
+          border-radius: 40px;
+          cursor: pointer;
+          &:hover {
+            background: #041018;
+          }
+        }
         .tw-text-field .tw-right-sidebar-text-field {
-          margin: 5px 5px 25px;
+          margin: 5px 0px 10px;
         }
       }
       &-bottom {
