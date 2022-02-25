@@ -4,36 +4,20 @@
     span.title Anasayfa
     tw-icon.star-icon.icon(icon="star" size="20")
   .tw-main-page-body
-    .tw-main-page-body-share
-      .tw-main-page-body-share-left
-        .tw-main-page-body-share-left-avatar
-          tw-image-card(
-            src="https://st2.depositphotos.com/3557671/11164/v/950/depositphotos_111644750-stock-illustration-man-avatar-icon-of-vector.jpg"
-            preset="avatar"
-          )
-      .tw-main-page-body-share-right
-        .tw-main-page-body-share-right-input
-          tw-text-field(placeholder="Neler oluyor?" inputColor="#000")
-          tw-icon.world-icon(icon="world" text="Herkes yanıtlayabilir" color="#1D9BF0" size="20")
-        .tw-main-page-body-share-right-bottom
-          .tw-main-page-body-share-right-bottom-features
-            tw-icon.media-icon(icon="media" size="20" color="#1D9BF0")
-            tw-icon.gif-icon(icon="gif" size="20" color="#1D9BF0")
-            tw-icon.poll-icon(icon="poll" size="20" color="#1D9BF0")
-            tw-icon.emoji-icon(icon="emoji" size="20" color="#1D9BF0")
-            tw-icon.plan-icon(icon="plan" size="20" color="#1D9BF0")
-            tw-icon.location-icon(icon="location" size="20" color="#1D9BF0")
-          .tw-main-page-body-share-right-bottom-tweet-tw-button
-            //- tw-ellipse-progress
-            tw-button(text="Tweetle" bgColor="#0F4D77" color="#7F7F7F" height="35")
+    tw-share-tweets-card
+    tw-notification-count-card
 </template>
 
 <script>
 import TwEllipseProgress from '@/components/progress-bar/tw-ellipse-progress';
+import TwShareTweetsCard from '@/components/cards/tw-share-tweets-card'
+import TwNotificationCountCard from '@/components/cards/tw-notification-count-card';
 export default {
   name: 'MainPage',
   components: {
-    TwEllipseProgress
+    TwEllipseProgress,
+    TwShareTweetsCard,
+    TwNotificationCountCard,
   }
 };
 </script>
@@ -51,50 +35,6 @@ export default {
       font-size: 17px;
     }
   }
-  &-body-share {
-    display: flex;
-    padding: 15px;
-    width: auto;
-    &-right {
-      width: 100%;
-      margin-left: 25px;
-      &-input {
-        margin: 5px 5px 15px;
-        border-bottom: 1px solid #393c3e;
 
-        .world-icon {
-          display: inline-flex;
-          margin-bottom: 10px;
-          padding: 5px 10px;
-          border-radius: 40px;
-          cursor: pointer;
-          &:hover {
-            background: #041018;
-          }
-        }
-        .tw-text-field .tw-right-sidebar-text-field {
-          margin: 5px 0px 10px;
-        }
-      }
-      &-bottom {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        &-features {
-          display: flex;
-          align-items: center;
-          .tw-icon {
-            margin-right: 2px;
-            padding: 5px;
-            border-radius: 50%;
-            cursor: pointer;
-            &:hover {
-              background: #041018;
-            }
-          }
-        }
-      }
-    }
-  }
 }
 </style>
