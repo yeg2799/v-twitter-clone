@@ -6,16 +6,16 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<ButtonTwButton>` | `<button-tw-button>` (components/button/tw-button.vue)
+- `<IconTwIcon>` | `<icon-tw-icon>` (components/icon/tw-icon.vue)
 - `<CardsTwContentCard>` | `<cards-tw-content-card>` (components/cards/tw-content-card.vue)
 - `<CardsTwExploreCard>` | `<cards-tw-explore-card>` (components/cards/tw-explore-card.vue)
 - `<CardsTwNotificationCountCard>` | `<cards-tw-notification-count-card>` (components/cards/tw-notification-count-card.vue)
 - `<CardsTwShareTweetsCard>` | `<cards-tw-share-tweets-card>` (components/cards/tw-share-tweets-card.vue)
 - `<CardsTwUserCard>` | `<cards-tw-user-card>` (components/cards/tw-user-card.vue)
 - `<CardsTwWhoToFollowCard>` | `<cards-tw-who-to-follow-card>` (components/cards/tw-who-to-follow-card.vue)
-- `<IconTwIcon>` | `<icon-tw-icon>` (components/icon/tw-icon.vue)
 - `<ImageTwImageCard>` | `<image-tw-image-card>` (components/image/tw-image-card.vue)
 - `<LeftSidebarTwLeftSidebar>` | `<left-sidebar-tw-left-sidebar>` (components/leftSidebar/tw-left-sidebar.vue)
-- `<ButtonTwButton>` | `<button-tw-button>` (components/button/tw-button.vue)
 - `<LinkTwLink>` | `<link-tw-link>` (components/link/tw-link.vue)
 - `<ProgressBarTwEllipseProgress>` | `<progress-bar-tw-ellipse-progress>` (components/progress-bar/tw-ellipse-progress.vue)
 - `<RightSidebarTwRightSidebar>` | `<right-sidebar-tw-right-sidebar>` (components/rightSidebar/tw-right-sidebar.vue)

@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _29e8d126 = () => interopDefault(import('../node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue' /* webpackChunkName: "" */))
 const _17b07fb1 = () => interopDefault(import('../pages/index' /* webpackChunkName: "" */))
+const _2bb315b2 = () => interopDefault(import('../pages/explore' /* webpackChunkName: "" */))
 
 const emptyFn = () => {}
 
@@ -23,13 +24,13 @@ export const routerOptions = {
     component: _29e8d126,
     name: "icons-list"
   }, {
-    path: "/_icons",
-    component: _29e8d126,
-    name: "icons-list"
-  }, {
     path: "/home",
     component: _17b07fb1,
     name: "main-page"
+  }, {
+    path: "/explore",
+    component: _2bb315b2,
+    name: "explore-page"
   }],
 
   fallback: false
