@@ -37,6 +37,13 @@ export default {
     '@nuxtjs/composition-api/module',
     '@nuxtjs/svg',
     '@nuxt/image',
+    // https://go.nuxtjs.dev/eslint
+    '@nuxtjs/eslint-module',
+    // https://go.nuxtjs.dev/stylelint
+    '@nuxtjs/stylelint-module',
+    // https://composition-api.nuxtjs.org/
+    '@nuxtjs/composition-api/module',
+    // Doc: https://github.com/nuxt-community/color-mode-module
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -46,7 +53,54 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extractCSS: process.env.NODE_ENV === 'production',
+    transpile: ['@nuxtjs/composition-api'],
+    /*
+     ** You can extend webpack config here
+     */
+    // loaders: {
+    //   sass: {
+    //     prependData: '@import "~@/assets/scss/variables.scss";',
+    //   },
+    // },
+    // analyze: true,
+    // vendor: ['axios', 'vee-validate'],
+    // babel: {
+    //   presets({ isServer }) {
+    //     const targets = isServer ? { node: 'current' } : { ie: 11 };
+
+    //     return [[require.resolve('@babel/preset-env'), { targets }]];
+    //   },
+    //   plugins: ['@babel/syntax-dynamic-import', '@babel/transform-runtime', '@babel/transform-async-to-generator'],
+    // },
+    extend(config, ctx) {
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/,
+          options: {
+            configFile: './.eslintrc.js',
+          },
+        });
+      }
+    },
+    // babel: {
+    //   presets: [
+    //     [
+    //       '@babel/preset-env',
+    //       {
+    //         useBuiltIns: 'entry',
+    //         corejs: 3,
+    //       },
+    //     ],
+    //   ],
+    //   plugins: ['@babel/transform-runtime'],
+    // },
+    // extractCSS: true
+  },
 
   image: {
     domains: ['nuxtjs.org'],
