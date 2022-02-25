@@ -95,9 +95,11 @@ body {
     width: 48%;
     border-left: 1px solid #393c3e;
     border-right: 1px solid #393c3e;
+    overflow-y: scroll;
   }
   .layout-right-sidebar {
     width: 31%;
+    overflow: scroll;
   }
 }
 </style>

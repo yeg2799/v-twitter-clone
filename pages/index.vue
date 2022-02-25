@@ -6,18 +6,21 @@
   .tw-main-page-body
     tw-share-tweets-card
     tw-notification-count-card
+    tw-content-card
 </template>
 
 <script>
 import TwEllipseProgress from '@/components/progress-bar/tw-ellipse-progress';
 import TwShareTweetsCard from '@/components/cards/tw-share-tweets-card'
 import TwNotificationCountCard from '@/components/cards/tw-notification-count-card';
+import TwContentCard from '@/components/cards/tw-content-card';
 export default {
   name: 'MainPage',
   components: {
     TwEllipseProgress,
     TwShareTweetsCard,
     TwNotificationCountCard,
+    TwContentCard,
   }
 };
 </script>
@@ -35,6 +38,5 @@ export default {
       font-size: 17px;
     }
   }
-
 }
 </style>
