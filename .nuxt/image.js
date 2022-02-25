@@ -4,7 +4,6 @@ import NuxtImg from '~image/components/nuxt-img.vue'
 import NuxtPicture from '~image/components/nuxt-picture.vue'
 
 import * as staticRuntime$017c from '/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxt/image/dist/runtime/providers/static.js'
-import * as ipxRuntime$74c0 from '/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxt/image/dist/runtime/providers/ipx.js'
 
 const imageOptions = {
   "screens": {
@@ -25,7 +24,7 @@ const imageOptions = {
       }
     }
   },
-  "provider": "ipx",
+  "provider": "static",
   "domains": [
     "nuxtjs.org"
   ],
@@ -33,8 +32,7 @@ const imageOptions = {
 }
 
 imageOptions.providers = {
-  ['static']: { provider: staticRuntime$017c, defaults: {} },
-  ['ipx']: { provider: ipxRuntime$74c0, defaults: {} }
+  ['static']: { provider: staticRuntime$017c, defaults: {} }
 }
 
 Vue.component(NuxtImg.name, NuxtImg)

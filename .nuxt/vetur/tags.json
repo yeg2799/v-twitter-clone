@@ -1,10 +1,4 @@
 {
-  "ButtonTwButton": {
-    "description": "Auto imported from components/button/tw-button.vue"
-  },
-  "IconTwIcon": {
-    "description": "Auto imported from components/icon/tw-icon.vue"
-  },
   "CardsTwContentCard": {
     "description": "Auto imported from components/cards/tw-content-card.vue"
   },
@@ -26,17 +20,23 @@
   "ImageTwImageCard": {
     "description": "Auto imported from components/image/tw-image-card.vue"
   },
+  "LinkTwLink": {
+    "description": "Auto imported from components/link/tw-link.vue"
+  },
   "LeftSidebarTwLeftSidebar": {
     "description": "Auto imported from components/leftSidebar/tw-left-sidebar.vue"
   },
-  "LinkTwLink": {
-    "description": "Auto imported from components/link/tw-link.vue"
+  "IconTwIcon": {
+    "description": "Auto imported from components/icon/tw-icon.vue"
   },
   "ProgressBarTwEllipseProgress": {
     "description": "Auto imported from components/progress-bar/tw-ellipse-progress.vue"
   },
   "RightSidebarTwRightSidebar": {
     "description": "Auto imported from components/rightSidebar/tw-right-sidebar.vue"
+  },
+  "ButtonTwButton": {
+    "description": "Auto imported from components/button/tw-button.vue"
   },
   "TextFieldTwTextField": {
     "description": "Auto imported from components/text-field/tw-text-field.vue"
