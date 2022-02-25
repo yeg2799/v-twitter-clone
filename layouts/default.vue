@@ -89,15 +89,15 @@ body {
     display: flex;
   }
   .layout-left-sidebar {
-    width: 25%;
+    width: 21%;
   }
   .layout-main {
-    width: 41.5%;
+    width: 48%;
     border-left: 1px solid #393c3e;
     border-right: 1px solid #393c3e;
   }
   .layout-right-sidebar {
-    width: 33.5%;
+    width: 31%;
   }
 }
 </style>

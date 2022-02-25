@@ -1,6 +1,6 @@
 <template lang="pug">
 .tw-icon
-  component.icon(:is="require(`@/assets/icons/${icon}.svg?inline`)" :width="`${size}px`")
+  component.icon(:is="require(`@/assets/icons/${icon}.svg?inline`)" :width="`${size}px`" :style= "{ color:color }")
   .text(v-if="text")
     span {{ text }}
 </template>
@@ -22,6 +22,10 @@ export default {
       type: String,
       default: '',
     },
+    color: {
+      type: String,
+      default: '',
+    }
   },
 };
 </script>

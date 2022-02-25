@@ -2,19 +2,16 @@
   {
     "name": "icons-list",
     "path": "/_icons",
-    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue",
-    "_name": "_29e8d126"
+    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue"
   },
   {
     "name": "icons-list",
     "path": "/_icons",
-    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue",
-    "_name": "_29e8d126"
+    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/node_modules/@nuxtjs/svg-sprite/lib/pages/icons-list.vue"
   },
   {
     "name": "main-page",
     "path": "/home",
-    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/pages/index",
-    "_name": "_17b07fb1"
+    "component": "/Users/yunusemre.guzel/Desktop/Kişisel Projeler/v-twitter-clone/pages/index"
   }
 ]
