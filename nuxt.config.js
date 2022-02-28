@@ -4,7 +4,7 @@ export default {
   router,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'twitter-clone',
+    title: 'Twitter',
     htmlAttrs: {
       lang: 'en',
     },
@@ -14,7 +14,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/twitter.ico' }],
   },
 
   css: ['bootstrap/dist/css/bootstrap.css'],

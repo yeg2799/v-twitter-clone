@@ -2,12 +2,6 @@
   "ButtonTwButton": {
     "description": "Auto imported from components/button/tw-button.vue"
   },
-  "IconTwIcon": {
-    "description": "Auto imported from components/icon/tw-icon.vue"
-  },
-  "ImageTwImageCard": {
-    "description": "Auto imported from components/image/tw-image-card.vue"
-  },
   "CardsTwContentCard": {
     "description": "Auto imported from components/cards/tw-content-card.vue"
   },
@@ -26,14 +20,20 @@
   "CardsTwWhoToFollowCard": {
     "description": "Auto imported from components/cards/tw-who-to-follow-card.vue"
   },
+  "IconTwIcon": {
+    "description": "Auto imported from components/icon/tw-icon.vue"
+  },
   "LeftSidebarTwLeftSidebar": {
     "description": "Auto imported from components/leftSidebar/tw-left-sidebar.vue"
   },
-  "LinkTwLink": {
-    "description": "Auto imported from components/link/tw-link.vue"
-  },
   "ProgressBarTwEllipseProgress": {
     "description": "Auto imported from components/progress-bar/tw-ellipse-progress.vue"
+  },
+  "ImageTwImageCard": {
+    "description": "Auto imported from components/image/tw-image-card.vue"
+  },
+  "LinkTwLink": {
+    "description": "Auto imported from components/link/tw-link.vue"
   },
   "RightSidebarTwRightSidebar": {
     "description": "Auto imported from components/rightSidebar/tw-right-sidebar.vue"
